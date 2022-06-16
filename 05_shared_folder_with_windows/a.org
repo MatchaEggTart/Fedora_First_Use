@@ -19,7 +19,7 @@ fmask 挂载文件权限掩码
 末尾添加
 例子
 # mount Windows disk
-UUID=B826E98626E9464A	/mnt/DATA		ntfs	defaults,utf8,uid=1000,gid=1000,dmask=000,fmask=000	0	0
+UUID=B826E98626E9464A	/mnt/DATA		ntfs	defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022	0	0
 
 创建软连接
 ln -s /mnt/DATA/Workspace Workspace
