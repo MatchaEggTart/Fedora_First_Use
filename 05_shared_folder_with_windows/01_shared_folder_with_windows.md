@@ -60,6 +60,7 @@
     ```
 
 * 修改 /etc/fstab，用 vi/emacs/gedit 等编辑器在末尾添加新的挂载
+  
     ```shell <.line-numbers>
     sudo emacs /etc/fstab
     ```
