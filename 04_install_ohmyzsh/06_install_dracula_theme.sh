@@ -1,4 +1,4 @@
-git clone --depth=1 https://github.com/dracula/gnome-terminal ${HOME}/Downloads/dracula-gnome-terminal
+git clone --depth=1 https://gitee.com/matchaeggtart/gnome-terminal ${HOME}/Downloads/dracula-gnome-terminal
 cd ${HOME}/Downloads/dracula-gnome-terminal
 sh install.sh
 # shouldn't add the other theme

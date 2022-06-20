@@ -53,17 +53,27 @@
     >w = 2 (可写)
     >x = 1 (可运行)
 
-* 在 /mnt 创建挂载使用的文件夹
+* 在 /mnt 创建挂载使用的文件夹(这步可以忽略了)
 
     ```shell <.line-numbers>
     mkdir -p /mnt/[文件夹名]
     ```
 
 * 修改 /etc/fstab，用 vi/emacs/gedit 等编辑器在末尾添加新的挂载
-例子
+    ```shell <.line-numbers>
+    sudo emacs /etc/fstab
+    ```
+
+* 在 fstab末尾添加
 
     ```shell <.line-numbers>
+    # 格式
     UUID=[硬盘uuid号]   /mnt/[挂载的文件夹] ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
+    ```
+
+    ```shell <.line-numbers>
+    # 例子
+    UUID=C87A815A7A814662   /mnt/DATA ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
     ```
 
     UUID 使用 lsblk -f 查询\
