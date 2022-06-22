@@ -30,7 +30,7 @@
    chmod 700 ~/.ssh
    ```
 
-# 如何使用 公钥下载
+## 如何使用 公钥下载
 
   * 使用 git
 
@@ -38,7 +38,7 @@
   git clone git@github.com:<USERNAME>/<REPO>.git
   ```
 
-# 如何将 https 修改为 ssh
+## 如何将 https 修改为 ssh
 
   * 查看 关联
 
