@@ -2,3 +2,4 @@ git clone https://gitee.com/matchaeggtart/zsh-syntax-highlighting.git ${ZSH_CUST
 
 # Activate the plugin in ~/.zshcr
 # plugins=( [plugins...] zsh-syntax-highlighting)
+# 
