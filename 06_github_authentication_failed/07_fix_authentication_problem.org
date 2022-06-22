@@ -1,2 +1,0 @@
-git remote set-url origin https://<TOKEN>@github.com/<USERNAME>/<REPO>.git
-// git config --system --unset credential.helper
