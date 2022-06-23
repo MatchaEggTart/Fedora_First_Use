@@ -74,7 +74,7 @@
 
     ```shell <.line-numbers>
     # 例子
-    UUID=C87A815A7A814662   /mnt/DATA ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
+    UUID=A8927D1E927CF1E4   /mnt/DATA               ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
     ```
 
     UUID 使用 lsblk -f 查询\
