@@ -1,1 +1,1 @@
-sudo dnf install powerline-fonts
+sudo dnf install powerline-fonts -y
