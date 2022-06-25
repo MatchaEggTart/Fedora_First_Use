@@ -2,3 +2,11 @@
 raw.githubusercontent.com
 IPv4 Addresses
 /etc/hosts
+
+nmcli device
+sudo nmcli con reload enp3s0
+
+systemctl restart NetworkManager
+
+nmcli networking off
+nmcli networking on

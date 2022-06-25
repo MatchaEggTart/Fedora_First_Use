@@ -1,1 +1,1 @@
-sudo dnf install vim -y
+sudo dnf install vim vim-X11 xsel -y
