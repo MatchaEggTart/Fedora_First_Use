@@ -69,12 +69,15 @@
 
     ```shell <.line-numbers>
     # 格式
-    UUID=[硬盘uuid号]   /mnt/[挂载的文件夹] ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
+    UUID=[硬盘uuid号]   /mnt/[挂载的文件夹] ntfs-3g/ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
     ```
 
+* 例子
+
     ```shell <.line-numbers>
-    # 例子
-    UUID=A8927D1E927CF1E4   /mnt/DATA               ntfs    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
+    # mount DATA
+    UUID=52BEE30ABEE2E587   /mnt/DATA               ntfs-3g    defaults,utf8,uid=1000,gid=1000,dmask=022,fmask=022 0   0
+
     ```
 
     UUID 使用 lsblk -f 查询\
