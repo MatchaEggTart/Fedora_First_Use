@@ -1,2 +1,2 @@
-sudo npm install -g yarn -y
+sudo npm install -g yarn
 yarn -v
