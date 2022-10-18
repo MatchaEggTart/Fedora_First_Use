@@ -123,7 +123,7 @@
   Comment=Tencent QQMusic
   Categories=AudioVideo;Audio;Player;
   MimeType=application/x-ogg;application/ogg;audio/x-vorbis+ogg;audio/vorbis;audio/x-vorbis;audio/x-scpls;audio/x-mp3;audio/x-mpeg;audio/mpeg;audio/x-mpegurl;audio/x-flac;audio/mp4;audio/x-it;audio/x-mod;audio/x-s3m;audio/x-stm;audio/x-xm;
-  Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
+  Keywords=Player;Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
   ```
 
 * 重启电脑后，在 默认应用（Default Applications）可以将 QQMusic 设置为音乐的默认应用
