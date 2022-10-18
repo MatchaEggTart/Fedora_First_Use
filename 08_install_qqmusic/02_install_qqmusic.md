@@ -105,9 +105,9 @@
 
   ``` sh
   # 假如你使用 Vim
-  vim /usr/share/application/qqmusic.desktop
+  vim /usr/share/applications/qqmusic.desktop
   # 假如你使用 Emacs
-  emacs /usr/share/application/qqmusic.desktop &
+  emacs /usr/share/applications/qqmusic.desktop &
   ```
 
 * 把文件改成这样
