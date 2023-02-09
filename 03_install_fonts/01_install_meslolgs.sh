@@ -3,5 +3,7 @@ git clone https://github.com/kalaschnik/meslolgs-nf-template ~/Downloads/meslolg
 mkdir -p ~/.local/share/fonts/meslolgs
 cp -r ./meslolgs-nf-template/* ~/.local/share/fonts/meslolgs
 cd ~/.local/share/fonts/meslolgs
-fc-cache -v 
+fc-cache -v
+
+
 ls ~/.local/share/fonts/meslolgs/
