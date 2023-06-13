@@ -7,6 +7,9 @@ alias mv="mv -i"
 alias vim="vimx"
 alias nv="nvim"
 
+# Edge
+alias edge='microsoft-edge-stable'
+
 # open QQMusic
 alias qqmusic="qqmusic --no-sandbox"
 # close QQMusic
