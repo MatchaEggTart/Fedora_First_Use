@@ -15,6 +15,9 @@ alias qqmusic="qqmusic --no-sandbox"
 # close QQMusic
 alias killqqmusic="killall -9 qqmusic"
 
+# default editor
+export EDITOR=emacs
+
 # vterm
 vterm_printf() {
     if [ -n "$TMUX" ] && ([ "${TERM%%-*}" = "tmux" ] || [ "${TERM%%-*}" = "screen" ]); then
