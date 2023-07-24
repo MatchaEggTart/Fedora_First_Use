@@ -1,1 +1,1 @@
-sudo dnf install gcc g++ -y
+sudo dnf install gcc g++ gcc-c++ -y
