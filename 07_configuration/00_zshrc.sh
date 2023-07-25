@@ -8,7 +8,9 @@ alias vim="vimx"
 alias nv="nvim"
 
 # Edge
-alias edge='microsoft-edge-stable'
+# alias edge='microsoft-edge-stable'
+alias edge='microsoft-edge-beta'
+# alias edge='microsoft-edge-dev'
 
 # open QQMusic
 alias qqmusic="qqmusic --no-sandbox"
