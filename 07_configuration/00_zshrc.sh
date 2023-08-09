@@ -1,3 +1,12 @@
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  git
+  fzf
+
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+
 # Personnal config
 alias rm="rm -i"
 alias mv="mv -i"
@@ -8,9 +17,9 @@ alias vim="vimx"
 alias nv="nvim"
 
 # Edge
-# alias edge='microsoft-edge-stable'
-alias edge='microsoft-edge-beta'
-# alias edge='microsoft-edge-dev'
+# alias edge='func() {microsoft-edge-stable "$1" &nohub}'
+alias edge='func() {microsoft-edge-beta "$1" &nohub}'
+# alias edge='func() {microsoft-edge-dev' "$1" &nohub}'
 
 # open QQMusic
 alias qqmusic="qqmusic --no-sandbox"
@@ -18,17 +27,7 @@ alias qqmusic="qqmusic --no-sandbox"
 alias killqqmusic="killall -9 qqmusic"
 
 # default editor
-export EDITOR=emacs
+export EDITOR=nvim
 
-# vterm
-vterm_printf() {
-    if [ -n "$TMUX" ] && ([ "${TERM%%-*}" = "tmux" ] || [ "${TERM%%-*}" = "screen" ]); then
-        # Tell tmux to pass the escape sequences through
-        printf "\ePtmux;\e\e]%s\007\e\\" "$1"
-    elif [ "${TERM%%-*}" = "screen" ]; then
-        # GNU screen (screen, screen-256color, screen-256color-bce)
-        printf "\eP\e]%s\007\e\\" "$1"
-    else
-        printf "\e]%s\e\\" "$1"
-    fi
-}
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
