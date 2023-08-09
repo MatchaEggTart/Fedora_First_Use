@@ -17,9 +17,9 @@ alias vim="vimx"
 alias nv="nvim"
 
 # Edge
-# alias edge='func() {microsoft-edge-stable "$1" &nohub}'
-alias edge='func() {microsoft-edge-beta "$1" &nohub}'
-# alias edge='func() {microsoft-edge-dev' "$1" &nohub}'
+# alias edge='func() {microsoft-edge-stable "$1" --nohub;}; func'
+alias edge='func() {microsoft-edge-beta "$1" --nohub;}; func'
+# alias edge='func() {microsoft-edge-dev "$1" --nohub;}; func'
 
 # open QQMusic
 alias qqmusic="qqmusic --no-sandbox"
