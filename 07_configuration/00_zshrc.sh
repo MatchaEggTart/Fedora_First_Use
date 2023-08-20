@@ -26,5 +26,9 @@ alias qqmusic="qqmusic --no-sandbox"
 # close QQMusic
 alias killqqmusic="killall -9 qqmusic"
 
+# neofetch | lolcat
+alias nfl="neofetch --source ~/.config/neofetch/ascii-art-neofetch/communist | lolcat"
+alias nfll="neofetch --source ~/.config/neofetch/ascii-art-neofetch/communist -L | lolcat"
+
 # default editor
 export EDITOR=nvim
