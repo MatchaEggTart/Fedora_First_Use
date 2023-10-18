@@ -57,7 +57,7 @@
     ``` sh
     # set QQMusic environment
     QQMUSIC_HOME="/opt/qqmusic"
-    PAHT=$PATH:"$QQMUSIC_HOME/qqmusic"
+    PATH=$PATH:"$QQMUSIC_HOME/qqmusic"
     ```
 
 * 设置 ~/.bashrc（如果使用shell） 或 设置 .zshrc（如果使用zsh）
